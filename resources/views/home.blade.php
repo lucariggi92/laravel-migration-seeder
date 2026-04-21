@@ -3,8 +3,8 @@
 
 @section("tabella")
 <ul>
-    @foreach($treni as $treno)
-    <li>{{$treno}}</li>
+    @foreach($trains as $train)
+    <li>{{$train}}</li>
     @endforeach
 </ul>
 @endsection
